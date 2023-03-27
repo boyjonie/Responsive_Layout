@@ -1,0 +1,49 @@
+body *{
+    display: flex;
+    font-size: 35px;
+}
+
+header, section, aside, main, footer{
+    border: 1px solid rgb(10, 255, 222);
+}
+
+header {
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(160, 79, 214);
+}
+
+main {
+    height: 75vh;
+    background-color: rgb(133, 58, 231);
+}
+
+main aside {
+    flex-grow: 1;
+    background-color: rgb(135, 27, 156);
+}
+
+main section {
+    flex-grow: 4;
+    background-color: rgb(112, 35, 122);
+}
+
+footer {
+    height: 100px;
+    margin-top: 5px;
+    background-color: rgb(149, 82, 204);
+}
+
+#navbar {
+    flex-grow: 4.36;
+}
+
+#settings {
+    flex-grow: 1;
+}
+
+.main {
+height: 100px;
+width: inherit;
+}
+
